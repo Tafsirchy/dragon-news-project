@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router";
 
 const NewsDetailsCard = ({ news }) => {
-  console.log(news);
+  // console.log(news);
   return (
     <div className="space-y-5">
       <img
@@ -14,7 +14,7 @@ const NewsDetailsCard = ({ news }) => {
       <p>{news.details}</p>
       <Link
         className=" btn btn-secondary"
-        to={`/category/${news.category_id}`}
+        to={`/category/${news.category_id}`}    
       >Back to Category</Link>
     </div>
   );

@@ -8,7 +8,7 @@ const Navbar = () => {
   const handleLogOut = () => {
     console.log("log out");
     logOut()
-      .then(() => {
+      .then(() =>            {
         // Sign-out successful.
         alert("Log out successfully");
       })
